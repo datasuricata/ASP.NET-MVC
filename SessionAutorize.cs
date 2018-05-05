@@ -24,7 +24,9 @@ namespace DataSuricata.Build.IO.Filters
 
 
 //Função do Código:
-//Durante a execução de suas Actions ele sobre escreve a ação validando a sessão do usuário antes de prosseguir.
+//Durante a execução de suas Actions ele vai sobre escrever a ação, validando a sessão do usuário antes de prosseguir.
+//Veja que aplicamos somente uma condição, que é se o usuário possui o token de sessão.
+//Customize de acordo com a sua nescessidade, mas não esqueça que a validação vai rodar do lado do servidor, muitas condicionais podem gerar carga pesada em sua hospedagem física. 
 
 //Exemplo de Aplicação:
 
